@@ -36,7 +36,11 @@
 #include <utility>
 #include <optional>
 
-namespace utils::lock_free
+namespace charivari_ltd
+{
+namespace utils
+{
+namespace lock_free
 {
 	/* Lock free queue
 	 *  - several writeres
@@ -158,5 +162,7 @@ namespace utils::lock_free
 			return ptr;
 		}
 	};
-} //namespace utils::lock_free
+} //namespace lock_free
+} //namespace utils
+} //namespace charivari_ltd
 

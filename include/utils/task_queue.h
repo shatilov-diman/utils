@@ -41,6 +41,8 @@
 #include <atomic>
 #include <mutex>
 
+namespace charivari_ltd
+{
 namespace utils
 {
 	class task_queue
@@ -131,4 +133,5 @@ namespace utils
 		worker work;
 	};
 } //namespace utils
+} //namespace charivari_ltd
 

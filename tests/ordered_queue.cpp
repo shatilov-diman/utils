@@ -38,7 +38,7 @@
 #include <array>
 #include <thread>
 
-using namespace utils::lock_free;
+using namespace charivari_ltd::utils::lock_free;
 
 class ordered_queue_test_suite :
 	public testing::Test

@@ -38,6 +38,8 @@
 #include <future>
 #include <thread>
 
+namespace charivari_ltd
+{
 namespace utils
 {
 	class worker :
@@ -102,4 +104,5 @@ namespace utils
 		std::thread thread;
 	};
 } //namespace utils
+} //namespace charivari_ltd
 

@@ -35,7 +35,7 @@
 
 #include <gtest/gtest.h>
 
-using namespace utils;
+using namespace charivari_ltd::utils;
 
 class task_queue_test_suite :
 	public testing::Test

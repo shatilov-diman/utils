@@ -32,6 +32,8 @@
 
 #pragma once
 
+namespace charivari_ltd
+{
 namespace utils
 {
 	class bool_t
@@ -92,4 +94,5 @@ namespace utils
 	constexpr bool_t false_t{false};
 	constexpr bool_t true_t{true};
 } //namespace utils
+} //namespace charivari_ltd
 

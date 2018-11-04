@@ -35,6 +35,8 @@
 
 #include <gtest/gtest.h>
 
+using namespace charivari_ltd;
+
 class bool_test_suite :
 	public testing::Test
 {

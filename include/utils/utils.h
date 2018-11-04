@@ -40,6 +40,8 @@
 #include <string>
 #include <chrono>
 
+namespace charivari_ltd
+{
 namespace utils
 {
 	namespace details
@@ -142,4 +144,5 @@ namespace utils
 		return to_wstring(std::string(arg));
 	}
 } //namespace utils
+} //namespace charivari_ltd
 
