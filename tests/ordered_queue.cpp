@@ -31,7 +31,7 @@
 //
 //
 
-#include "../ordered_queue.h"
+#include <utils/ordered_queue.h>
 
 #include <gtest/gtest.h>
 
